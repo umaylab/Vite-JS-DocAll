@@ -13,7 +13,7 @@
 6. [Three.JS](#-threejs)
 
 
-## Note:
+### Note:
 - Install Xcode (Xcode Command Line Developer Tools)  xcode-select --install ….
 - Install NodeJS + Payton first….
 
@@ -53,6 +53,16 @@ Install vitejs
 9. Install sass : —> [``` npm i -D sass ```](#)
 10. Coba Running dengan : —> [``` npm run dev ```](#)
 
+
+
+main.js —> in viteJs:
+
+```js
+import './style.css'
+import javascriptLogo from './javascript.svg'
+import viteLogo from '/vite.svg'
+import { setupCounter } from './counter.js'
+```
 
 ## 👾 GSAP
 
