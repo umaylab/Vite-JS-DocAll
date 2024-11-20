@@ -43,6 +43,10 @@ Install vitejs
 ```
 
 
+```diff 
+text in purple (and bold)
+```
+
 ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
 
 ${{\color{Goldenrod}\Large{\textsf{  Hi\ there\ \}}}}\$
