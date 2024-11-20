@@ -71,10 +71,37 @@ import { setupCounter } from './counter.js'
 
 ### 1. Installation
 
-Rollup:
+```js
+main,js
+==============
 
-```shell
-npm install --save-dev rollup-plugin-gltf
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+/* The following plugins are Club GSAP perks */
+import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
+import { ScrollSmoother } from "gsap/ScrollSmoother";
+import { GSDevTools } from "gsap/GSDevTools";
+import { MotionPathHelper } from "gsap/MotionPathHelper";
+import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+import { Draggable } from "gsap/Draggable";
+import { Flip } from "gsap/Flip";
+import { SplitText } from "gsap/SplitText";
+
+
+
+gsap.registerPlugin(gsap, ScrollTrigger, ScrollSmoother, SplitText, DrawSVGPlugin, MotionPathPlugin, MotionPathHelper, GSDevTools, ScrollToPlugin, Draggable, Flip);
+
+
+
+// create the smooth scroller FIRST!
+let smoother = ScrollSmoother.create({
+  smooth: 1,
+  effects: true,
+  normalizeScroll: true
+});
+
 ```
 
 Vite:
