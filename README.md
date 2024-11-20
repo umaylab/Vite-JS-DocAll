@@ -18,7 +18,7 @@
 Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing each to process and optimize 3D models used by a web application. While bundlers can process traditional web content — like CSS or images — out of the box or with existing plugins, bundlers lack any understanding of 3D content. This project orchestrates processing of models using the [glTF-Transform](https://gltf-transform.donmccurdy.com/) library, and includes configuration flexible enough to select among existing processing stages or to define and add new methods.
 
 ## 👾 Vite.JS
-Dependencies:
+Install vitejs 
 
 1. Pada terminal install viteJS :  npm create vite@latest
 2. Setting pada terminal pilih —>vanilla Javascript, dan ikuti petunjuknya
@@ -28,16 +28,9 @@ Dependencies:
     spt: counter.js, javascript.svg, id=“app” pada index.html dan hapus semua isi file dari file main.js
 6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>     <link rel=“stylesheet” href=“css/main.scss”>
 7. Buat folder diroot —> css folder dan buat file main.scss
-8. Install sass : —> npm i -D sass
-9. Coba Running dengan : —>  npm run dev 
+8. Install sass : —> npm i -D sass 
+9. Coba Running dengan : —>  npm run dev ```js npm install --save-dev rollup-plugin-gltf ```
 
-- General-purpose glTF processing library
-- [Draco](https://github.com/google/draco/): compression for mesh geometry
-- [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
-
-1. Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing each to process and optimize 3D models used by a web application. While bundlers can process traditional web content — like CSS or images — out of the box or with existing plugins, bundlers lack any understanding of 3D content. This project orchestrates processing of 
-2. General-purpose glTF processing library
-3. Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing each to process and optimize 3D models used by a web application. While bundlers can process traditional web content — like CSS or images
 
 ## 👾 GSAP
 
