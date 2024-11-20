@@ -105,11 +105,11 @@ Referensi warna:
 @@ text in purple (and bold)@@
 ```
 
-- ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-- ${{\color{orange}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-- ${{\color{red}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-- ${{\color{green}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-- ${{\color{greenyellow}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
+- ${{\color{Goldenrod}\Huge{\textsf{  gold\ color\ \}}}}\$
+- ${{\color{orange}\Huge{\textsf{  orange\ color\ \}}}}\$
+- ${{\color{red}\Huge{\textsf{  red\ color\ \}}}}\$
+- ${{\color{green}\Huge{\textsf{  green\ color\ \}}}}\$
+- ${{\color{greenyellow}\Huge{\textsf{  greenyellow\ color\ \}}}}\$
 
 
 
