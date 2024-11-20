@@ -26,8 +26,8 @@ Install vitejs
 4. lalu ketik : $${\color{orange}npm i}$$  —> untung menginstall
 5. Setelah terinstal di folder projeknya buka dan hapus beberapa file yang tidak dibutuhkan
     spt: counter.js, javascript.svg, id=“app” pada index.html dan hapus semua isi file dari file main.js
-6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>  ```+ link rel=“stylesheet” href=“css/main.scss” ```(#)
-8. Buat folder diroot —> css folder dan buat file main.scss
+6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>  [link rel=“stylesheet” href=“css/main.scss” ](#)
+8. Buat folder diroot —> css folder dan buat file main.scss $${\color{orange}[link rel=“stylesheet” href=“css/main.scss” ]}$$
 9. Install sass : —> [``` npm i -D sass ```](#)
 10. Coba Running dengan : —> [``` npm run dev ```](#)
 
