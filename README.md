@@ -42,6 +42,14 @@ Install vitejs
 @@ text in purple (and bold)@@
 ```
 
+
+#0f0[This is green text]
+
+#7fffff00[This is yellow text at 50% opacity]
+
+
+
+
 ### 1. Installation
 
 Rollup:
