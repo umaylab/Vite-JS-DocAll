@@ -2,13 +2,15 @@
 
 ## 🔗 Quick Links
 
-1. [Overview](#-overview)
-2. [Demo](#-demo)
-3. [Features](#️-features)
-4. [Getting Started](#-getting-started)
-5. [Configuration](#-configuration)
-6. [Examples](#-examples)
-7. [Contributing](#-contributing)
+1. [Vite JS](#-vitejs)
+2. [GSAP](#-gsap)
+3. [Bootstrap](#-bootstrap)
+4. [JQuery](#-jquery)
+5. [Barba JS](#-barbajs)
+6. [Pixi JS](#-pixijs)
+7. [<Model-Viewer>](#-model-viewer)
+8. [Mind-AR](#-mind-ar)
+6. [Three JS](#-threejs)
 
 
 ## Overview
@@ -21,7 +23,7 @@ Dependencies:
 - [Draco](https://github.com/google/draco/): compression for mesh geometry
 - [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
 
-## Quickstart
+## 👾 GSAP
 
 ### 1. Installation
 
@@ -36,6 +38,8 @@ Vite:
 ```shell
 npm install --save-dev vite-plugin-gltf
 ```
+
+## 👾 Vite JS
 
 ### 2. Minimal Configuration
 
