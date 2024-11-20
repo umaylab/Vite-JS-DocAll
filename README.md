@@ -34,28 +34,6 @@ Install vitejs
 
 ## 👾 GSAP
 
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
-
-
-
-${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-
-${{\color{orange}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-
-${{\color{red}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-
-${{\color{green}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-
-${{\color{greenyellow}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
-
-
-
 
 
 
@@ -117,11 +95,21 @@ Dependencies:
 
 
 ## 👾 Barba.JS
-Dependencies:
+Referensi warna:
 
-- [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
-- [Draco](https://github.com/google/draco/): compression for mesh geometry
-- [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
+- ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
+- ${{\color{orange}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
+- ${{\color{red}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
+- ${{\color{green}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
+- ${{\color{greenyellow}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
 
 
