@@ -288,7 +288,7 @@ Setup index.html....
 
 File style.scss /css
 
-```css
+```scss
 /* @import "bootstrap/scss/bootstrap"; */
 * {
     margin: 0;
