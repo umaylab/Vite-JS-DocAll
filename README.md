@@ -2,22 +2,22 @@
 
 ## 🔗 Quick Links
 
-1. [Vite JS](#-vitejs)
+1. [Vite.JS](#-vitejs)
 2. [GSAP](#-gsap)
 3. [Bootstrap](#-bootstrap)
 4. [JQuery](#-jquery)
-5. [Barba JS](#-barbajs)
-6. [Pixi JS](#-pixijs)
+5. [Barba.JS](#-barbajs)
+6. [Pixi.JS](#-pixijs)
 7. [Model-Viewer](#-model-viewer)
 8. [Mind-AR](#-mind-ar)
-6. [Three JS](#-threejs)
+6. [Three.JS](#-threejs)
 
 
 ## Overview
 
 Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing each to process and optimize 3D models used by a web application. While bundlers can process traditional web content — like CSS or images — out of the box or with existing plugins, bundlers lack any understanding of 3D content. This project orchestrates processing of models using the [glTF-Transform](https://gltf-transform.donmccurdy.com/) library, and includes configuration flexible enough to select among existing processing stages or to define and add new methods.
 
-## 👾 Vite JS
+## 👾 Vite.JS
 Dependencies:
 
 - [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
@@ -83,7 +83,7 @@ Dependencies:
 
 
 
-## 👾 Barba JS
+## 👾 Barba.JS
 Dependencies:
 
 - [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
