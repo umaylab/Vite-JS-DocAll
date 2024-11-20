@@ -286,6 +286,315 @@ Setup index.html....
 
 ```
 
+File style.scss /css
+
+```
+/* @import "bootstrap/scss/bootstrap"; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: #111;
+    overscroll-behavior: none;
+    font-family: "Signika Negative", sans-serif, Arial;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+  }
+  
+  /* BG PUTIH */
+  #smooth-content {
+    overflow: visible;
+    width: 100%;
+    /* set a height because the contents are position: absolute, thus natively there's no height */
+    height: 60000px;
+  
+    background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+  
+  }
+  
+  .pull {
+  width: 100vw;
+  height: 50px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(85, 55, 16);
+  }
+
+  .pull-nav {
+    width: 100vw;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    text-align: start;
+    background-color: rgb(16, 84, 85);
+    }
+  /* ======================================================= */
+
+
+  /* ------- Section 1 ----------------- */
+
+    .section1 {
+      width: 100%;
+    }
+    
+    .konten1 {
+      height: 700px;
+      background-color: #89bab631;
+      position: relative;
+    }
+    
+    .lembar {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+    
+    .obj01 {
+      left: 0px;
+      top: 0px;
+      background-color: rgb(224, 131, 250);
+    }
+    
+    .obj02 {
+      right: 0px;
+      background-color: rgb(79, 161, 35);
+    }
+    
+    .obj03 {
+      right: 0px;
+      bottom: 0px;
+      background-color: rgb(159, 68, 54);
+    }
+    
+    .obj04 {
+      left: 50%;
+      top: 50%;
+      background-color: rgb(92, 122, 198);
+    }
+    
+    .obj05 {
+      bottom: 0px;
+      background-color: rgb(230, 53, 148);
+    }
+    
+    .konten1 .obj06 {
+      width: 50px;
+      height: 50px;
+      left: 50%;
+      bottom: 0px;
+      /* bottom: 0; */
+      position: absolute;
+      background-color: rgb(230, 186, 53);
+    }
+    
+
+
+    
+  
+    /* ------- Section 2 ----------------- */
+  
+    .section2 {
+      width: 100%;
+    }
+    
+    .konten2 {
+      height: 700px;
+      background-color: #ba968931;
+      position: relative;
+    }
+    
+    .lembar2 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+    /* ------- Section 3 ----------------- */
+  
+    .section3 {
+      width: 100%;
+    }
+    
+    .konten3 {
+      height: 700px;
+      background-color: #89bab631;
+      position: relative;
+    }
+    
+    .lembar3 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+    /* ------- Section 4----------------- */
+  
+    .section4 {
+      width: 100%;
+    }
+    
+    .konten4 {
+      height: 700px;
+      background-color: #ba968931;
+      position: relative;
+    }
+    
+    .lembar4 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+   /* ------- Section 5 ----------------- */
+  
+    .section5 {
+      width: 100%;
+    }
+    
+    .konten5 {
+      height: 700px;
+      background-color: #89bab631;
+      position: relative;
+    }
+    
+    .lembar5 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+    /* ------- Section 6 ----------------- */
+  
+    .section6 {
+      width: 100%;
+    }
+    
+    .konten6 {
+      height: 700px;
+      background-color: #ba968931;
+      position: relative;
+    }
+    
+    .lembar6 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+    /* ------- Section 7 ----------------- */
+  
+    .section7 {
+      width: 100%;
+    }
+    
+    .konten7 {
+      height: 700px;
+      background-color: #89bab631;
+      position: relative;
+    }
+    
+    .lembar7 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+      
+  
+  
+  
+  
+    /* ------- Section 8 ----------------- */
+  
+    .section8 {
+      width: 100%;
+    }
+    
+    .konten8 {
+      height: 700px;
+      background-color: #ba968931;
+      position: relative;
+    }
+    
+    .lembar8 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+    /* ------- Section 9 ----------------- */
+  
+    .section9 {
+      width: 100%;
+    }
+    
+    .konten9 {
+      height: 700px;
+      background-color: #89bab631;
+      position: relative;
+    }
+    
+    .lembar9 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+  
+  
+  
+    /* ------- Section 10 ----------------- */
+  
+    .section10 {
+      width: 100%;
+    }
+    
+    .konten10 {
+      height: 700px;
+      background-color: #ba968931;
+      position: relative;
+    }
+    
+    .lembar10 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+  
+
+```
+
+File main.js 
+
 ```js
 main,js
 ==============
