@@ -71,6 +71,221 @@ import { setupCounter } from './counter.js'
 
 ### 1. Installation
 
+Setup index.html....
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+</head>
+<body>
+  <special-header></special-header>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+          
+              <!-- Section 1 -->
+              <div class="pull-nav"><h3>Transition<br></h3></div>
+              <section class="section1">
+                <div class="konten1">
+                    <div class="lembar obj01">1</div>
+                    <div class="lembar obj02">2</div>
+                    <div class="lembar obj03">3</div>
+                    <div class="lembar obj04">4</div>
+                    <div class="lembar obj05">5</div>
+                    <div class="obj06">6</div>
+    
+    
+    
+                  </div>
+              </section>
+
+
+              </section>
+    
+    
+              <!-- Section 2 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 02-00<br></h3></div>
+              <section class="section2">
+                <div class="konten2">
+                    <div class="lembar2 obj01">1</div>
+                    <div class="lembar2 obj02">2</div>
+                    <div class="lembar2 obj03">3</div>
+                    <div class="lembar2 obj04">4</div>
+                    <div class="lembar2 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+              <!-- Section 3 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 03-00<br></h3></div>
+              <section class="section3">
+                <div class="konten3">
+                    <div class="lembar3 obj01">1</div>
+                    <div class="lembar3 obj02">2</div>
+                    <div class="lembar3 obj03">3</div>
+                    <div class="lembar3 obj04">4</div>
+                    <div class="lembar3 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+      
+              <!-- Section 4 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 04-00<br></h3></div>
+              <section class="section4">
+                <div class="konten4">
+                    <div class="lembar4 obj01">1</div>
+                    <div class="lembar4 obj02">2</div>
+                    <div class="lembar4 obj03">3</div>
+                    <div class="lembar4 obj04">4</div>
+                    <div class="lembar4 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+              <!-- Section 5 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 05-00<br></h3></div>
+              <section class="section5">
+                <div class="konten5">
+                    <div class="lembar5 obj01">1</div>
+                    <div class="lembar5 obj02">2</div>
+                    <div class="lembar5 obj03">3</div>
+                    <div class="lembar5 obj04">4</div>
+                    <div class="lembar5 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+      
+              <!-- Section 6 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 06-00<br></h3></div>
+              <section class="section6">
+                <div class="konten6">
+                    <div class="lembar6 obj01">1</div>
+                    <div class="lembar6 obj02">2</div>
+                    <div class="lembar6 obj03">3</div>
+                    <div class="lembar6 obj04">4</div>
+                    <div class="lembar6 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+              <!-- Section 7 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 07-00<br></h3></div>
+              <section class="section7">
+                <div class="konten7">
+                    <div class="lembar7 obj01">1</div>
+                    <div class="lembar7 obj02">2</div>
+                    <div class="lembar7 obj03">3</div>
+                    <div class="lembar7 obj04">4</div>
+                    <div class="lembar7 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+              <!-- Section 8 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 08-00<br></h3></div>
+              <section class="section8">
+                <div class="konten8">
+                    <div class="lembar8 obj01">1</div>
+                    <div class="lembar8 obj02">2</div>
+                    <div class="lembar8 obj03">3</div>
+                    <div class="lembar8 obj04">4</div>
+                    <div class="lembar8 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+      
+              <!-- Section 9 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 09-00<br></h3></div>
+              <section class="section9">
+                <div class="konten9">
+                    <div class="lembar9 obj01">1</div>
+                    <div class="lembar9 obj02">2</div>
+                    <div class="lembar9 obj03">3</div>
+                    <div class="lembar9 obj04">4</div>
+                    <div class="lembar9 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+      
+      
+      
+      
+              <!-- Section 10 -->
+              <div class="col-lg-12"><h3 class="text-center" style="background-color: rgb(24, 24, 24);">Konten 10-00<br></h3></div>
+              <section class="section10">
+                <div class="konten10">
+                    <div class="lembar10 obj01">1</div>
+                    <div class="lembar10 obj02">2</div>
+                    <div class="lembar10 obj03">3</div>
+                    <div class="lembar10 obj04">4</div>
+                    <div class="lembar10 obj05">5</div>
+                    <div class="obj06">6</div>
+      
+      
+      
+                  </div>
+              </section>
+  
+
+
+  
+  
+        </div>
+      </div>
+
+    <!-- script js -->
+    <script type="module" src="./src/js/headerFooterManager.js"></script>
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
+
+```
+
 ```js
 main,js
 ==============
