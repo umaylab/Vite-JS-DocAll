@@ -20,9 +20,13 @@ Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing 
 ## 👾 Vite.JS
 Dependencies:
 
-- [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
+- General-purpose glTF processing library
 - [Draco](https://github.com/google/draco/): compression for mesh geometry
 - [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
+
+1. General-purpose glTF processing library
+2. General-purpose glTF processing library
+3. General-purpose glTF processing library
 
 ## 👾 GSAP
 
