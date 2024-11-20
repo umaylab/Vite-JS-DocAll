@@ -27,7 +27,7 @@ Install vitejs
 5. Setelah terinstal di folder projeknya buka dan hapus beberapa file yang tidak dibutuhkan
     spt: counter.js, javascript.svg, id=“app” pada index.html dan hapus semua isi file dari file main.js
 6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>  [link rel=“stylesheet” href=“css/main.scss” ](#)
-8. Buat folder diroot —> css folder dan buat file main.scss   ${{\color{Goldenrod}\Huge{\textsf{  npm\ threejs\ install\ pakujawacode\}}}}\$
+8. Buat folder diroot —> css folder dan buat file main.scss   ${{\color{greenyellow}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 9. Install sass : —> [``` npm i -D sass ```](#)
 10. Coba Running dengan : —> [``` npm run dev ```](#)
 
@@ -43,26 +43,18 @@ Install vitejs
 ```
 
 
-```diff 
-text in purple (and bold)
-```
 
-${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
+${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
-${{\color{Goldenrod}\Large{\textsf{  Hi\ there\ \}}}}\$
+${{\color{orange}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
-${{\color{Goldenrod}Medium{textsf{  Hi there }}}}$
+${{\color{red}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
-${{\color{orange}\Medium{\textsf{  Hi\ there\ \}}}}\$
+${{\color{green}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
-${{\color{green}\Medium{\textsf{  Hi\ there\ \}}}}\$
-
-${{\color{greenyellow}\Medium{\textsf{  Hi\ there\ \}}}}\$
+${{\color{greenyellow}\Huge{\textsf{  Hi\ there\ anybody?\}}}}\$
 
 
-${{\color{red}\Medium{\textsf{  Hi\ there\ \}}}}\$
-
-${{\color{blue}\Medium{\textsf{  Hi\ there\ \}}}}\$
 
 
 
