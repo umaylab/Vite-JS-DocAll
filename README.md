@@ -29,7 +29,7 @@ Install vitejs
 6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>     <link rel=“stylesheet” href=“css/main.scss”>
 7. Buat folder diroot —> css folder dan buat file main.scss
 8. Install sass : —> npm i -D sass 
-9. Coba Running dengan : —>  npm run dev ```js npm install --save-dev rollup-plugin-gltf ```
+9. Coba Running dengan : —>  npm run dev [``` npm install --save-dev rollup-plugin-gltf ```](#)
 
 
 ## 👾 GSAP
