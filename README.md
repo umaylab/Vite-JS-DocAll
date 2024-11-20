@@ -20,16 +20,16 @@ Monorepo containing plugins for two popular bundlers (Vite and Rollup) allowing 
 ## 👾 Vite.JS
 Install vitejs 
 
-1. Pada terminal install viteJS :  npm create vite@latest
-2. Setting pada terminal pilih —>vanilla Javascript, dan ikuti petunjuknya
+1. Pada terminal install viteJS :   [``` npm create vite@latest ```](#)
+2. Setting pada terminal pilih —> vanilla Javascript, dan ikuti petunjuknya
 3. Pilih lokasi folder yang digunakan sebagai projeknya
 4. lalu ketik : npm i  —> untung menginstall
 5. Setelah terinstal di folder projeknya buka dan hapus beberapa file yang tidak dibutuhkan
     spt: counter.js, javascript.svg, id=“app” pada index.html dan hapus semua isi file dari file main.js
-6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>     <link rel=“stylesheet” href=“css/main.scss”>
+6. Buat link stylesheet (.css) pada index.html sebagai (.scss) : —>  [``` link rel=“stylesheet” href=“css/main.scss” ```](#)
 7. Buat folder diroot —> css folder dan buat file main.scss
-8. Install sass : —> npm i -D sass 
-9. Coba Running dengan : —>  npm run dev [``` npm install --save-dev rollup-plugin-gltf ```](#)
+8. Install sass : —> [``` npm i -D sass ```](#)
+9. Coba Running dengan : —> [``` npm run dev ```](#)
 
 
 ## 👾 GSAP
