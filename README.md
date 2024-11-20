@@ -45,6 +45,21 @@ Install vitejs
 
 ${{\color{Goldenrod}\Huge{\textsf{  Hi\ there\ \}}}}\$
 
+${{\color{Goldenrod}\Large{\textsf{  Hi\ there\ \}}}}\$
+
+${{\color{Goldenrod}Medium{textsf{  Hi there }}}}$
+
+${{\color{orange}\Medium{\textsf{  Hi\ there\ \}}}}\$
+
+${{\color{green}\Medium{\textsf{  Hi\ there\ \}}}}\$
+
+${{\color{greenyellow}\Medium{\textsf{  Hi\ there\ \}}}}\$
+
+
+${{\color{red}\Medium{\textsf{  Hi\ there\ \}}}}\$
+
+${{\color{blue}\Medium{\textsf{  Hi\ there\ \}}}}\$
+
 
 
 
