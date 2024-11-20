@@ -20,22 +20,22 @@
 
 ## PROSES:
 
-1. install ViteJS : —>  [``` $ npm create vite@latest ```](#)
+1. install ViteJS : —>  [``` npm create vite@latest ```](#)
 2. Buat file ( vite.config.js )
 3. Buat folder2 —> src dll
 4. Buat folder Fonts untk meyimpan font custom dan jangan lupa gunakan import agar include (build vitejs)
-4. Install plugin optimalisasi gltf file (build file .gltf) : —>  $ npm install --save-dev vite-plugin-gltf
+4. Install plugin optimalisasi gltf file (build file .gltf) : —>  [``` npm install --save-dev vite-plugin-gltf ```](#)
 4. Copy file CSS ( core.scss )
 5. Install Sass : —>  [``` $ npm i -D sass ```](#)
-6. Install Bootstrap : —> $ npm i bootstrap@v5.2.3
-7. Install JQuery : —> $ npm install jquery
-8. Install GSAP : —>  $ npm install ./gsap-bonus.tgz
+6. Install Bootstrap : —> [``` npm i bootstrap@v5.2.3 ```](#)
+7. Install JQuery : —> [``` npm install jquery ```](#)
+8. Install GSAP : —>  [``` npm install ./gsap-bonus.tgz ```](#)
 9. Buat file Routing : headerFooterManager.js 
-10. Install BarbaJS : —> $ npm install @barba/core
-12. Install PixiJS : —> $ npm install pixi.js
-11. Install 3d library <model-viewer> : —> $ npm install @google/model-viewer
-12. Install Mind-AR : —> $ npm i mind-ar --save
-13. Install Threejs : —> $ npm i three —save-dev
+10. Install BarbaJS : —> [``` npm install @barba/core ```](#)
+12. Install PixiJS : —> [``` npm install pixi.js ```](#)
+11. Install 3d library <model-viewer> : —> [``` npm install @google/model-viewer ```](#)
+12. Install Mind-AR : —> [``` npm i mind-ar --save ```](#)
+13. Install Threejs : —> [``` npm i three —save-dev ```](#)
 
 
 
