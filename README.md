@@ -873,12 +873,105 @@ jQuery(document).ready(function($){
    
    ```
 
-## 👾 VITE + <model-viewer>
+## 👾 VITE + model-viewer
 Catatan: Untuk <model-viewer> —> didalamnya sudah terdapat package threejs library
                 Jangan install threeJs Library dahulu jika ingin menggunakan library dari  <model-viewer>
 
 # install package
 npm install @google/model-viewer
+
+```scss
+< MODEL-VIEWER >
+1. Instal Model-Viewer dengan NPM install seperti diatas
+2. copy code pada HTML :
+-------------------------
+     <div class="model3d">
+        <model-viewer class="tigadimensi" id="orbit-demo"  src="./assets/Chair.glb" alt="A 3D model of an Chair" auto-rotate="" camera-controls="" background-color="#455A64" ar-status="not-presenting" disable-zoom ></model-viewer>
+      </div>
+      
+      
+      // import dari javascript .......
+      <script type="module" src="/main.js"></script>
+      
+      
+
+3. style.css
+--------------
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: #111;
+font-family: "Signika Negative", sans-serif, Arial;
+overscroll-behavior: none;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+/* overflow-y: hidden !important; */
+}
+
+/* .model3d{
+  width: 800px;
+  height: 800px;
+  background-color: aqua;
+} */
+
+
+.section39 {
+  width: 100%;
+  height: 700px;
+  background-color: #1c5488;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tigadimensi {
+  width: 700px;
+  height: 700px;
+  /* background-color: #03c9a9; */
+
+}
+
+
+4. main.js
+--------------
+import './style.css';
+import { ModelViewerElement } from '@google/model-viewer';
+
+```
+
+
+## 👾 Downgrade/Upgrade NODEJS version ( Node Version Manager )
+
+- install tools di terminal dengan nama : Node Version Manager  : contoh: nvm -v
+- https://github.com/nvm-sh/nvm#install--update-script
+- https://www.youtube.com/watch?app=desktop&v=PIR0oBVowXU
+
+- instal di terminal/vscode:
+-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+- Catatatan: harus telah menginstal = (Xcode Command Line Developer Tools)  xcode-select --install
+- Lihat semua versi NodeJs = nvm ls-remote
+- run : ——>  nvm use v18.17.1
+- run: ——> nvm install v18.17.1
+- node JS berubah versi menjadi v18.17.1
+
+
+### Library Javascript
+
+1. GSAP
+2. Bootstramp
+3. ThreeJS
+4. Model-Viewer
+5. MindAR
+6. PixiJS
+7. Barba JS
+8. Threeasy
+9. JQuery
 
 
 
