@@ -97,8 +97,8 @@ export default defineConfig({
 ```
 
 ## 👾 GSAP
-1. Copy file ZIP GSAP (gsap-bonus.tgz) plugin ke dalam root directory projek dengan men drag filenya… 
-2. Kemudian Install :  —> npm install ./gsap-bonus.tgz
+1. Copy file plugin ke dalam root directory projek dengan mendrag filenya… 
+2. Kemudian Install :  —> npm install 
 3. Link doc : https://gsap.com/docs/v3/Installation?tab=npm&module=esm&method=zip&tier=free&club=true&require=false&trial=true 
 
 ### 1. Installation
