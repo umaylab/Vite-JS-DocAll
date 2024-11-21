@@ -29,7 +29,7 @@
 5. Install Sass : —>  [``` $ npm i -D sass ```](#)
 6. Install Bootstrap : —> [``` npm i bootstrap@v5.2.3 ```](#)
 7. Install JQuery : —> [``` npm install jquery ```](#)
-8. Install GSAP : —>  [``` npm install gsap ```] | [``` npm install ./gsap-bonus.tgz ```](#)
+8. Install GSAP : —>  [``` npm install gsap ```](#) | [``` npm install ./gsap-bonus.tgz ```](#)
 9. Buat file Routing : headerFooterManager.js 
 10. Install BarbaJS : —> [``` npm install @barba/core ```](#)
 12. Install PixiJS : —> [``` npm install pixi.js ```](#)
