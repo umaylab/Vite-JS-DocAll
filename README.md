@@ -64,10 +64,42 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 ```
 
+File : vite.config.js
+
+```js
+// vite.config.js
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        src: resolve(__dirname, 'src/home.html')
+      }
+    }
+  },
+
+
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler' // or "modern"
+      }
+    }
+  },
+
+  
+})
+
+
+```
+
 ## 👾 GSAP
-
-
-
+1. Copy file ZIP GSAP (gsap-bonus.tgz) plugin ke dalam root directory projek dengan men drag filenya… 
+2. Kemudian Install :  —> npm install ./gsap-bonus.tgz
+3. Link doc : https://gsap.com/docs/v3/Installation?tab=npm&module=esm&method=zip&tier=free&club=true&require=false&trial=true 
 
 ### 1. Installation
 
@@ -628,20 +660,76 @@ let smoother = ScrollSmoother.create({
 
 ```
 
-Vite:
+## 👾 Bootstrap
 
-```shell
-npm install --save-dev vite-plugin-gltf
+- Runing pada Terminal : npm install bootstrap@5.3.3
+Style.css
+
+```scss
+style.scss
+==========
+
+@import "bootstrap/scss/bootstrap";
 ```
 
-## 👾 Bootstrap
-Dependencies:
+Main.js
 
-- [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
-- [Draco](https://github.com/google/draco/): compression for mesh geometry
-- [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
+```js
+main.js
+==========
 
-### 2. Minimal Configuration
+// Import our custom CSS --> disesuaikan lokasi CSS nya yang sudah import bootstramp
+import './page.scss';
+
+// Import all of Bootstrap's JS
+import * as bootstrap from "bootstrap";
+
+```
+
+## Setup & Run BUILD Multi-Page App
+
+1. Buat konfigurasi file pada projek vite
+
+```js
+Buat file pada root :  vite.config.js. 
+Isikan filenya : 
+
+// vite.config.js
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        page: resolve(__dirname, 'src/page1.html')
+      }
+    }
+  },
+
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler' // or "modern"
+      }
+    }
+  }
+
+
+  
+})
+
+
+
+```
+
+2.  jalankan —> [``` npm i -D vite-plugin-inspect ```](#)
+
+rev doc: ```https://github.com/antfu-collective/vite-plugin-inspect```
+         ```https://v3.vitejs.dev/guide/build```
+
+### BUAT HEADER & FOOTER
 
 The plugin is unopinionated about which optimizations should be applied to your glTF models. Here is a minimal configuration that simply applies Draco compression of your assets:
 
@@ -710,6 +798,12 @@ Run the following command to view all available options:
 
 ```sh
 ❯ readmeai --help
+```
+
+Code:
+
+```shell
+npm install --save-dev vite-plugin-gltf
 ```
 
 <sub>Visit the [Official Documentation][mkdocs] for more detailed information on configuration options, examples, and best practices.</sub>
