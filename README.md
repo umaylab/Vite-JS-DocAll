@@ -812,8 +812,17 @@ customElements.define('special-footer', SpecialFooter)
 video : https://www.youtube.com/watch?v=e60d_M-p8nc
 
 
+## 👾 Barba.JS
+
+
+## 👾 Pixi.JS
+
+
+## 👾 Model-Viewer
+
 
 ## 👾  VITE + THREEJS
+Three.JS
 
 https://www.youtube.com/watch?v=0C4Ydy20PL4
 
@@ -822,6 +831,7 @@ https://www.youtube.com/watch?v=0C4Ydy20PL4
 
 
 ## 👾 VITE + MindAR
+Mind-AR
 
 Catalan : harus menggunakan nodeJS versi 18.12.1 (versi lama)
 
@@ -830,6 +840,7 @@ Catalan : harus menggunakan nodeJS versi 18.12.1 (versi lama)
 
 
 ## 👾  VITE + JQUERY
+JQuery
 
 1. Install Jquery : —>  npm install jquery 
 2. Buat file( .js) untuk isi dari function jQuery ( _jquery.js), maka semua isi code jQuery ada disini.
