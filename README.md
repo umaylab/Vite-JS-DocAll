@@ -83,6 +83,10 @@ File : vite.config.js
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
+// gltf export
+import gltf from "vite-plugin-gltf"; // (b) Vite
+import { draco } from "@gltf-transform/functions";
+
 export default defineConfig({
   build: {
     rollupOptions: {
@@ -93,7 +97,6 @@ export default defineConfig({
     }
   },
 
-
   css: {
     preprocessorOptions: {
       scss: {
@@ -102,8 +105,17 @@ export default defineConfig({
     }
   },
 
+
+  plugins: [
+    gltf({
+      transforms: [draco()],
+    }),
+  ],
+
+
   
 })
+
 
 
 ```
