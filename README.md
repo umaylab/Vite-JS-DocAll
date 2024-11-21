@@ -31,8 +31,10 @@
         src: url('/fonts/NeueHaasDisplay/NeueHaasDisplayBold.ttf')  format('truetype');
    }
 ```
-4. Install plugin optimalisasi gltf file (build file .gltf) : —>  [``` npm install --save-dev vite-plugin-gltf ```](#) https://github.com/nytimes/rd-bundler-3d-plugins/tree/main
-5. Install vite-plugin-inspect : -> [``` npm i -D vite-plugin-inspect ```](#) dan copy configurasinya : (https://github.com/antfu-collective/vite-plugin-inspect)
+4. Install plugin optimalisasi gltf file (build file .gltf) : —>  [``` npm install --save-dev vite-plugin-gltf ```](#)
+   https://github.com/nytimes/rd-bundler-3d-plugins/tree/main
+6. Install vite-plugin-inspect : -> [``` npm i -D vite-plugin-inspect ```](#) dan copy configurasinya :
+   (https://github.com/antfu-collective/vite-plugin-inspect)
 4. Copy file CSS ( core.scss )
 5. Install Sass : —>  [``` $ npm i -D sass ```](#)
 6. Install Bootstrap : —> [``` npm i bootstrap@v5.2.3 ```](#)
