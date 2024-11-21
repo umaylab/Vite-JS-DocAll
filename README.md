@@ -731,28 +731,87 @@ rev doc: ```https://github.com/antfu-collective/vite-plugin-inspect```
 
 ### BUAT HEADER & FOOTER
 
-The plugin is unopinionated about which optimizations should be applied to your glTF models. Here is a minimal configuration that simply applies Draco compression of your assets:
+headerFooterManager.js
 
 ```js
-// *.config.js
-import gltf from "rollup-plugin-gltf"; // (a) Rollup
-import gltf from "vite-plugin-gltf"; // (b) Vite
+headerFooterManager.js
+========================
 
-import { draco } from "@gltf-transform/functions";
+class SpecialHeader extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <style>
+          .headku {
+            width: 100%;
+            height: 50px;
+            /*background-color: yellowgreen;*/
+            position: fixed;
+            z-index: 1000;
+          }
 
-return {
-  // ...
-  plugins: [
-    gltf({
-      transforms: [draco()],
-    }),
-  ],
-};
+          ul {
+            list-style-type: none;
+            /* margin: 0; */
+            margin-right: 50px;
+            padding: 0;
+            overflow: hidden;
+          }
+
+          li {
+            float: right;
+          }
+
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+
+          li a:hover {
+            /* background-color: #111; */
+          }
+        </style>
+        <div class="headku">
+          <ul>
+            <li><a href="#detail">DetailComponent</a></li>
+            <li><a href="#businesse">BisnisSection</a></li>
+            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#interaction">Interaction</a></li>
+            <li><a href="#animation">Animation</a></li>
+            <li><a href="/src/page1.html">Transition</a></li>
+            <li><a class="active" href="/">Navigation</a></li>
+          </ul>
+        </div>
+        `
+    }
+}
+
+class SpecialFooter extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <p style="display: flex; justify-content: space-around; background-color: blueviolet;">
+        `
+    }
+}
+
+
+customElements.define('special-header', SpecialHeader)
+customElements.define('special-footer', SpecialFooter)
+
 ```
+### TERMINAL :
+```
+- npm run dev -------------------------------------------
+- npm run build -----------------------------------------
+- npm run preview ---------------------------------------
 
-See [advanced configuration](#advanced-configuration) for more complex examples.
+- Ctrl + C  ——>  refresh to new terminal
+```
+video : https://www.youtube.com/watch?v=e60d_M-p8nc
 
-_SvelteKit:_ it seems that in SvelteKit SSR should be disabled in order to avoid mysterious `ReferenceError` issues - see issues filed [here](https://github.com/nytimes/rd-bundler-3d-plugins/issues/19) and on the [SvelteKit repo](https://github.com/sveltejs/kit/issues/9000).
+
 
 ### 3. Asset Placement
 
