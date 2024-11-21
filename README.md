@@ -813,14 +813,72 @@ video : https://www.youtube.com/watch?v=e60d_M-p8nc
 
 
 
-### 3. Asset Placement
+## 👾  VITE + THREEJS
 
-## 👾 JQuery
-Dependencies:
+https://www.youtube.com/watch?v=0C4Ydy20PL4
 
-- [glTF Transform](https://gltf-transform.donmccurdy.com/): general-purpose glTF processing library
-- [Draco](https://github.com/google/draco/): compression for mesh geometry
-- [Meshoptimizer](https://github.com/zeux/meshoptimizer): compression for mesh geometry, point geometry, animation, and morph targets
+1. Terminal : npm i three —save-dev
+2. buka halaman website threejs  —> pada klik menu dokumentasi —> Create a Scene —> copy code yang paling bawah (js)
+
+
+## 👾 VITE + MindAR
+
+Catalan : harus menggunakan nodeJS versi 18.12.1 (versi lama)
+
+1.  Install ThreeJS : ——————>  [``` npm i three —save-dev ```](#)
+2.  Install MindAR : ——————> [``` npm i mind-ar --save ```](#)
+
+
+## 👾  VITE + JQUERY
+
+1. Install Jquery : —>  npm install jquery 
+2. Buat file( .js) untuk isi dari function jQuery ( _jquery.js), maka semua isi code jQuery ada disini.
+3. jangan lupa selalu mendambahkan :
+    - import $ from ‘jquery’ ;
+    - window.$ = window.jQuery = $;
+  
+ Contoh File:  _jquery.js
+ ```js
+import $ from 'jquery';
+window.$ = window.jQuery = $;
+
+jQuery(document).ready(function($){
+    $('.tabs').on('click', function(){
+        var tab = $(this);
+        
+        tab.addClass('is-active');
+        
+        if ( tab.siblings().hasClass('is-active') ) {
+            tab.siblings().removeClass('is-active');
+        }
+    });
+  });
+
+```
+
+4. Import file _jquery.js yang telah dibuat diatas didalam file javascript produksi contoh file : (animasi.js)
+5. jadi file khusus jQuery fungsi filenya terpisah dari file javascript untuk apps dan di import…..
+    cari dimana lokasi file jQuery function berada kemudian impor pada file javascript menggunakan :  —>   import './lib/_jquery';
+
+   con: file —> animasi.js
+   ```js
+   // import dari lokasi file fungsi jQuery
+   import './lib/_jquery';
+
+
+   tambahan : jika terjadi sesuatu yang kurang bisa coba tambahkan "modul" link jquery pada file HTML nya….
+   <script type="module" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   atau
+   <script type="module" src="../node_modules/jquery/dist/jquery.min.js"></script>
+   
+   ```
+
+## 👾 VITE + <model-viewer>
+Catatan: Untuk <model-viewer> —> didalamnya sudah terdapat package threejs library
+                Jangan install threeJs Library dahulu jika ingin menggunakan library dari  <model-viewer>
+
+# install package
+npm install @google/model-viewer
 
 
 
