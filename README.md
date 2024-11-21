@@ -997,21 +997,6 @@ Customize your README generation using these CLI options:
 | `--badge-style`   | Badge icon style type                         | `flat`            |
 
 
-Run the following command to view all available options:
-
-```sh
-❯ readmeai --help
-```
-
-Code:
-
-```shell
-npm install --save-dev vite-plugin-gltf
-```
-
-<sub>Visit the [Official Documentation][mkdocs] for more detailed information on configuration options, examples, and best practices.</sub>
-
----
 
 ## 🎨 Examples
 
