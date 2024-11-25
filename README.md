@@ -1,4 +1,4 @@
-# Vite.js-DocAll
+# Vite.js + Vanilla Documentation
 
 ## 🔗 Quick Links
 
