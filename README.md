@@ -23,7 +23,17 @@
 1. install ViteJS : —>  [``` npm create vite@latest ```](#)
 2. Buat file ( vite.config.js )
 3. Buat folder2 —> src dll
-4. Buat folder Fonts untk meyimpan font custom dan jangan lupa gunakan import agar include (build vitejs)
+   - assets --> image, 3dmodel, file dan lain-lain...
+   - components --> komponent elemen kecil dari views page
+     - icons
+     - fonts
+   - router  --> file Js link router
+   - stores  --> file javascript tentang perhitungan, penjualan dll
+   - views  --> Hash Page dan HTML page
+     - scss --> folder berisi file scss
+  
+   - 
+5. Buat folder Fonts untk meyimpan font custom dan jangan lupa gunakan import agar include (build vitejs)
    
 ```scss
    @font-face {
