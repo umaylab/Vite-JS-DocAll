@@ -1001,9 +1001,9 @@ import { ModelViewerElement } from '@google/model-viewer';
 - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 - Catatatan: harus telah menginstal = (Xcode Command Line Developer Tools)  xcode-select --install
 - Lihat semua versi NodeJs = nvm ls-remote
-- run : ——>  nvm use v18.17.1
-- run: ——> nvm install v18.17.1
-- node JS berubah versi menjadi v18.17.1
+- run : ——>  nvm use v18.12.1 
+- run: ——> nvm install v18.12.1
+- node JS berubah versi menjadi v18.12.1
 
 
 
