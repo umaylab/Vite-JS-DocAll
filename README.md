@@ -863,6 +863,21 @@ https://www.youtube.com/watch?v=0C4Ydy20PL4
 1. Terminal : npm i three —save-dev
 2. buka halaman website threejs  —> pada klik menu dokumentasi —> Create a Scene —> copy code yang paling bawah (js)
 
+### Install Dat.GUI (Tools GUI for ThreeJs)
+- $ npm install --save dat.gui
+- 
+- // CommonJS:
+const dat = require('dat.gui');
+
+// ES6:
+import * as dat from 'dat.gui';
+
+const gui = new dat.GUI();
+
+- Referensi :
+- https://github.com/dataarts/dat.gui?tab=readme-ov-file
+- https://sbcode.net/threejs/dat-gui/
+
 
 ## 👾 VITE + MindAR
 Mind-AR
