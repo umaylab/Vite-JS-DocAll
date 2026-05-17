@@ -102,6 +102,8 @@ import gltf from "vite-plugin-gltf"; // (b) Vite
 import { draco } from "@gltf-transform/functions";
 
 export default defineConfig({
+  base: "./",
+
   build: {
     rollupOptions: {
       input: {
