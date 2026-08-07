@@ -62,7 +62,9 @@
 15. Install Mediapipe : —> [``` npm install @mediapipe/tasks-vision ```](#)
 16. Install Lottie : —> [``` npm install @lottiefiles/dotlottie-web  ```](#)     
 17. 16. Install .m3u8 / HLS video : —> [``` npm install hls.js  ```](#)
-18. Install Terser for Vite3 + (untuk Compress - Build Projek) : —> [``` npm install terser -D  ```](#) 
+18. Install Terser for Vite3 + (untuk Compress - Build Projek) : —> [``` npm install terser -D  ```](#)
+
+19. Install Lenis dari :  —> [``` npm i @studio-freight/lenis  ```](#)
 
 
 
