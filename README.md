@@ -65,6 +65,9 @@
 18. Install Terser for Vite3 + (untuk Compress - Build Projek) : —> [``` npm install terser -D  ```](#)
 
 19. Install Lenis dari :  —> [``` npm i @studio-freight/lenis  ```](#)
+20. Install Icon dari tabler-icons :  —> [``` npm install @tabler/icons  ```](#)
+21. Install Icon dari fontsAwsome :  —> [``` npm install @fortawesome/fontawesome-svg-core ```](#)
+                                     —> [``` npm install @fortawesome/free-solid-svg-icons  ```](#)
 
 
 
