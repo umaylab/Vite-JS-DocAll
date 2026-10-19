@@ -57,7 +57,7 @@
 12. Install PixiJS : —> [``` npm install pixi.js ```](#)
 11. Install 3d library <model-viewer> : —> [``` npm install @google/model-viewer ```](#)
 12. Install Mind-AR : —> [``` npm i mind-ar --save ```](#)
-13. Install Threejs : —> [``` npm i three —save-dev ```](#)
+13. Install Threejs : —> [``` npm install three —save-dev ```](#)
 14. Install Lenis : —> [``` npm i lenis ```](#)
 15. Install Mediapipe : —> [``` npm install @mediapipe/tasks-vision ```](#)
 16. Install Lottie : —> [```npm i lottie-web  ```](#)     
