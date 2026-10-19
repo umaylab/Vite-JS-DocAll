@@ -59,14 +59,15 @@
 12. Install Mind-AR : —> [``` npm i mind-ar --save ```](#)
 13. Install Threejs : —> [``` npm install three —save-dev ```](#)
 14. Install Lenis : —> [``` npm i lenis ```](#)
-15. Install Mediapipe : —> [``` npm install @mediapipe/tasks-vision ```](#)
-16. Install Lottie : —> [```npm i lottie-web  ```](#)     
-17. 16. Install .m3u8 / HLS video : —> [``` npm install hls.js  ```](#)
-18. Install Terser for Vite3 + (untuk Compress - Build Projek) : —> [``` npm install terser -D  ```](#)
+15. Install Mediapipe : —> [``` npm install @mediapipe/tasks-vision ```](#).  
+16. Salin isi folder node_modules/@mediapipe/tasks-vision/wasm/ ke public/wasm/. Ini penting agar runtime WASM dapat dimuat melalui base path proyek Vite, termasuk /anakku-story/. —> [``` npm install @mediapipe/tasks-vision ```](#).
+17. Install Lottie : —> [```npm i lottie-web  ```](#)     
+18. 16. Install .m3u8 / HLS video : —> [``` npm install hls.js  ```](#)
+19. Install Terser for Vite3 + (untuk Compress - Build Projek) : —> [``` npm install terser -D  ```](#)
 
-19. Install Lenis dari :  —> [``` npm i @studio-freight/lenis  ```](#)
-20. Install Icon dari tabler-icons :  —> [``` npm install @tabler/icons  ```](#)
-21. Install Icon dari fontsAwsome :  —> [``` npm install @fortawesome/fontawesome-svg-core ```](#)
+20. Install Lenis dari :  —> [``` npm i @studio-freight/lenis  ```](#)
+21. Install Icon dari tabler-icons :  —> [``` npm install @tabler/icons  ```](#)
+22. Install Icon dari fontsAwsome :  —> [``` npm install @fortawesome/fontawesome-svg-core ```](#)
                                      —> [``` npm install @fortawesome/free-solid-svg-icons  ```](#)
 
 
